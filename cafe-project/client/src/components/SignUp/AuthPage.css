@@ -1,0 +1,32 @@
+    .auth-page {
+        display: flex;
+        min-height: calc(100vh - 120px);
+        background: #fff;
+    }
+
+    /* ЛЕВАЯ ЧАСТЬ */
+    .auth-left {
+        flex: 1.1; /* чуть больше чем правая */
+        background: #CBE4E8;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; /* 👈 картинка снизу как на макете */
+        padding: 40px;
+    }
+
+    /* КАРТИНКА */
+    .auth-image {
+        max-width: 450px;
+        max-height: 500px;  /* 👈 ограничение по высоте */
+        width: 100%;
+        height: auto;
+    }
+
+    /* ПРАВАЯ ЧАСТЬ */
+    .auth-right {
+        flex: 0.9;
+        display: flex;
+        justify-content: flex-start; /* 👈 не по центру */
+        align-items: center;
+        padding-left: 80px; /* 👈 сдвиг вправо как на скрине */
+    }
