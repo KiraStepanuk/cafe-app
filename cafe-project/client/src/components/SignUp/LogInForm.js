@@ -1,4 +1,4 @@
-import "../style/login-form.css"
+import "./login-form.css"
 
 export default function LogInForm() {
     return (
@@ -11,7 +11,7 @@ export default function LogInForm() {
 
             <div className="actions">
                 <button className="login-btn">Log In</button>
-                <span className="forgot">Forget Password></span>
+                <span className="forgot">Forget Password?</span>
             </div>
         </div>
     )

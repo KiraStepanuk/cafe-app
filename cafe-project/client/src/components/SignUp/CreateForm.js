@@ -1,6 +1,7 @@
-import "../style/create-form.css"
+import React from "react";
+import "./create-form.css"
 
-export default function CreateForm() {
+export default function CreateForm( {onSwitch} ) {
     return (
         <div className="form-box">
             <h2>Create an account</h2>
@@ -21,7 +22,9 @@ export default function CreateForm() {
             </button>
 
             <p className="login-text">
-                Already have account? <span>Log in</span>
+                Already have account? <span
+                onClick={onSwitch}
+                style={{ cursor: 'pointer', color: 'blue' }}>Log in</span>
             </p>
         </div>
     )
