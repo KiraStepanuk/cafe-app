@@ -1,3 +1,1 @@
-kan2cafe v4
-
-Test br
+Короч установила ещё "npm install react-router-dom" что б был роутинг по проекту.
