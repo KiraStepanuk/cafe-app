@@ -3,6 +3,7 @@ import Hero from '../components/Hero/Hero';
 import FlashSales from '../components/FlashSales/FlashSales';
 import Featured from '../components/Featured/Featured';
 import BestSelling from '../components/BestSelling/BestSelling';
+import MusicBanner from '../components/MusicBanner/MusicBanner';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <FlashSales />
        <BestSelling />
+       <MusicBanner />
       <Featured />
     </main>
   );
