@@ -126,3 +126,38 @@
 .reviews-count {
   color: #00000080;
 }
+
+
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 2;
+}
+.discount-badge { background-color: #DB4444; }
+.new-badge { background-color: #00FF66; }
+
+
+.product-colors {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.color-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.color-circle.active {
+  border: 2px solid black;
+  outline: 2px solid white;
+  outline-offset: -4px;
+}

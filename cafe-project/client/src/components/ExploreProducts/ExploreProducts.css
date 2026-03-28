@@ -1,0 +1,23 @@
+.explore-section {
+  padding: 20px 0;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.explore-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 30px;
+}
+
+.view-all-container {
+  text-align: center;
+  margin-top: 60px;
+}

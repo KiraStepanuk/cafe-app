@@ -4,6 +4,7 @@ import FlashSales from '../components/FlashSales/FlashSales';
 import Featured from '../components/Featured/Featured';
 import BestSelling from '../components/BestSelling/BestSelling';
 import MusicBanner from '../components/MusicBanner/MusicBanner';
+import ExploreProducts from '../components/ExploreProducts/ExploreProducts';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <FlashSales />
        <BestSelling />
        <MusicBanner />
+       <ExploreProducts />
       <Featured />
     </main>
   );
