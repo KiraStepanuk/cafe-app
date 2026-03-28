@@ -1,0 +1,60 @@
+.form-box {
+    width: 320px;
+}
+
+.form-box h2 {
+    margin-bottom: 10px;
+}
+
+.form-box p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.login-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-text span {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
